@@ -16,9 +16,9 @@ define([], function( ){
           function (promise) {
             $scope.deleemploye = promise;
             if ($scope.deleemploye==true) {
-              sweetAlert("Great", "You successfully create a new Employe!", "success");
+              sweetAlert("Great", "You successfully create a new Employee!", "success");
             }else{
-              sweetAlert("Oops...", "Unable to create a new Employe!", "error");
+              sweetAlert("Oops...", "Unable to create a new Employee!", "error");
             }
             $scope.viewEmploye();
           });
@@ -29,9 +29,9 @@ define([], function( ){
           function (promise) {
             $scope.updaEmploye = promise;
             if ($scope.updaEmploye==true) {
-              sweetAlert("Great", "You successfully updated the Employe!", "success");
+              sweetAlert("Great", "You successfully updated the Employee!", "success");
             }else{
-              sweetAlert("Oops...", "Unable to updated the Employe!", "error");
+              sweetAlert("Oops...", "Unable to updated the Employee!", "error");
             }
             $scope.viewEmploye();
           });

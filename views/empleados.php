@@ -37,3 +37,33 @@
     </table>
 </div>
 </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="updateEmploye" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Update a Candidat</h4>
+        </div>
+        <div class="modal-body">
+          <form name="updateCandidat">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" ng-model="employeUp.name"  ng-value=employeUp.name />
+            <label for="fechaini">Begin Date:</label>
+            <input type="text" class="form-control" ng-model="employeUp.startdate" ng-value=employeUp.name />
+            <label for="fechafin">End Date:</label>
+            <input type="text" class="form-control" ng-model="employeUp.enddate"  ng-value=employeUp.name />
+            <label for="sal">Salary:</label>
+            <input type="text" class="form-control" ng-model="employeUp.salary" placeholder="$$$$" maxlength="6"  ng-value=employeUp.salary />
+            <label for="desc">Description:</label>
+            <textarea class="form-control" ng-model=employeUp.des ng-value=employeUp.des />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" ng-click="updateCandidat()" ng-disabled="updateCandidat.$invalid">Go!</button>
+        </div>
+      </div>
+    </div>
+  </div>

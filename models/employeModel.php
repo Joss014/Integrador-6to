@@ -53,14 +53,5 @@ class employe_model{
 
 }
 
-/*
-public function pushToArray($object,$varToPush){
-      $newArray = $this->objectToArray($object);
-      array_push($newArray,$varToPush);
-      return $newArray;
-    }
-*/
-
-
 
 ?>

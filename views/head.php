@@ -6,7 +6,7 @@
     <title>SRH</title>
     <script src="../components/jQuery/jquery-2.2.3.min.js" type="text/javascript"></script>
     <link href="../components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" >
     <link href="../components/ionicons/css/ionicons.min.css" rel="stylesheet">
     <!-- <link href="../css/sb-admin-2.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="../css/AdminLTE.css">
